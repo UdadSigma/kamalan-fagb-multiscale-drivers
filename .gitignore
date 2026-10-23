@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large geospatial data (not redistributed)
+*.tif
+*.tiff
+*.img
+*.gpkg
+*.nc
+*.h5
+*.ldb
+*.cpg
+
+# Figure outputs
+*.png
+*.jpg
+*.pdf
+!docs/*.png
+
+# Office temp files
+~$*

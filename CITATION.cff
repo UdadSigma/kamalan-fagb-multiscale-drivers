@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript and the SSEL product paper."
+authors:
+  - family-names: Zhou
+    given-names: Wenqiang
+    email: "opwen5782815@163.com"
+  - family-names: Deng
+    given-names: Shiwen
+  - family-names: Zang
+    given-names: Shuying
+  - family-names: Guo
+    given-names: Dianfan
+title: "Code for: Multi-scale driving mechanisms of forest aboveground biomass spatial heterogeneity in the Greater Khingan Mountains"
+type: software
+license: MIT
+repository-code: "https://github.com/opwen5782815/kamalan-fagb-multiscale-drivers"
+preferred-citation:
+  type: article
+  title: "Multi-scale driving mechanisms of forest aboveground biomass spatial heterogeneity in the Greater Khingan Mountains: an integrated Geodetector and MGWR analysis"
+  authors:
+    - family-names: Zhou
+      given-names: Wenqiang
+    - family-names: Deng
+      given-names: Shiwen
+    - family-names: Zang
+      given-names: Shuying
+    - family-names: Guo
+      given-names: Dianfan
+  journal: "Remote Sensing (submitted)"
+  year: 2026
+  notes: "Manuscript under review; preprint DOI to be added upon acceptance."
+references:
+  - type: article
+    title: "Sample Augmentation for Tree Above-Ground Biomass Estimation Under Limited Field Data: A Case Study in the Greater Khingan Mountains"
+    authors:
+      - family-names: Zhou
+        given-names: Wenqiang
+      - family-names: Deng
+        given-names: Shiwen
+      - family-names: Zang
+        given-names: Shuying
+      - family-names: Guo
+        given-names: Dianfan
+    journal: "Remote Sensing"
+    volume: 18
+    issue: 10
+    pages: 1627
+    year: 2026
+    doi: "10.3390/rs18101627"

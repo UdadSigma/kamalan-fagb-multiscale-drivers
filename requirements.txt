@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+rasterio
+torch
+matplotlib
+seaborn
+statsmodels
+scikit-learn

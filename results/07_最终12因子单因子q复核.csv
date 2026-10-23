@@ -1,0 +1,13 @@
+﻿因子,分层数,q值(%)
+Relief,5,4.13
+DDT,5,2.76
+TPI,6,2.16
+aspect,9,2.11
+NDWI,4,1.62
+Dist_Settlement,5,1.49
+TWI,5,1.43
+elevation,6,1.27
+Prec,5,1.23
+Humus,5,1.19
+Permafrost,2,0.89
+Dist_Fire,5,0.81
