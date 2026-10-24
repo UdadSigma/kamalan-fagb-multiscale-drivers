@@ -13,7 +13,7 @@ authors:
 title: "Code for: Multi-scale driving mechanisms of forest aboveground biomass spatial heterogeneity in the Greater Khingan Mountains"
 type: software
 license: MIT
-repository-code: "https://github.com/opwen5782815/kamalan-fagb-multiscale-drivers"
+repository-code: "https://github.com/UdadSigma/kamalan-fagb-multiscale-drivers"
 preferred-citation:
   type: article
   title: "Multi-scale driving mechanisms of forest aboveground biomass spatial heterogeneity in the Greater Khingan Mountains: an integrated Geodetector and MGWR analysis"
