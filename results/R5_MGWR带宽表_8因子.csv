@@ -1,0 +1,10 @@
+﻿因子,MGWR最佳带宽,作用尺度属性
+Intercept,100,局域 (Local)
+TPI,100,局域 (Local)
+DDT,100,局域 (Local)
+PREC,1500,中尺度/区域性 (Regional)
+TWI,100,局域 (Local)
+NDWI,100,局域 (Local)
+HUM,100,局域 (Local)
+PER,100,局域 (Local)
+DST,2700,全局平稳 (Global)
