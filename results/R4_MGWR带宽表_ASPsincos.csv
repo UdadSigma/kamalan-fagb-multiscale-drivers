@@ -1,0 +1,13 @@
+﻿因子,MGWR最佳带宽,作用尺度属性
+Intercept,100,局域 (Local)
+TPI,100,局域 (Local)
+elevation,100,局域 (Local)
+ASP_N,100,局域 (Local)
+ASP_E,100,局域 (Local)
+DDT,100,局域 (Local)
+Prec,1800,中尺度/区域性 (Regional)
+TWI,100,局域 (Local)
+NDWI,300,局域 (Local)
+Humus,100,局域 (Local)
+Permafrost,100,局域 (Local)
+Dist_Settlement,2700,全局平稳 (Global)
