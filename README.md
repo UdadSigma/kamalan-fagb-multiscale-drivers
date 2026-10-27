@@ -1,5 +1,7 @@
 # Multi-scale driving mechanisms of forest aboveground biomass spatial heterogeneity in the Greater Khingan Mountains
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23681464.svg)](https://doi.org/10.5281/zenodo.23681464)
+
 Analysis code for the manuscript *"Multi-scale driving mechanisms of forest aboveground biomass spatial heterogeneity in the Greater Khingan Mountains: an integrated Geodetector and MGWR analysis"* (submitted to *Remote Sensing*).
 
 The repository reproduces the complete analysis pipeline for the Kamalan River watershed (northern Greater Khingan Mountains, Northeast China, ~2,207 km²):
@@ -10,7 +12,7 @@ The repository reproduces the complete analysis pipeline for the Kamalan River w
 4. **MGWR** — back-fitting MGWR with per-coefficient adaptive bandwidth search (100–2,900 neighbours, GCV criterion), benchmarked against OLS and fixed-bandwidth GWR.
 5. **Figure scripts** — all main-text figures.
 
-The 10 m FAGB response map is the published SSEL product of Zhou et al. (2026) (*Remote Sens.* 2026, 18, 1627, https://doi.org/10.3390/rs18101627) and is not redistributed here.
+The 10 m TAGB response map is the published SSEL product of Zhou et al. (2026) (*Remote Sens.* 2026, 18, 1627, https://doi.org/10.3390/rs18101627). It is openly distributed on Zenodo (https://doi.org/10.5281/zenodo.23681464, SHA-256: 72163e44a040e31207c6b98ec1c358f8284acd3ebd23984d760227677ec89d04) and is not duplicated in this repository.
 
 ## Repository structure
 
@@ -38,7 +40,7 @@ The 10 m FAGB response map is the published SSEL product of Zhou et al. (2026) (
 
 ## How to run
 
-Input rasters (FAGB map, SRTM DEM and derived indices, climate grids, soil products, permafrost map, disturbance layers) are described in Table 1 of the manuscript; their sources are all public except the FAGB product (available from the corresponding author upon reasonable request). Absolute paths inside the scripts must be adapted to the local layout.
+Input rasters (TAGB map, SRTM DEM and derived indices, climate grids, soil products, permafrost map, disturbance layers) are described in Table 1 of the manuscript; their sources are all public, and the TAGB product is openly available on Zenodo at https://doi.org/10.5281/zenodo.23681464. Absolute paths inside the scripts must be adapted to the local layout.
 
 1. `code/01_spatial_statistics/Phase0_基准复核与耗时.py` — verify the wall-to-wall benchmark Moran's I = 0.661154.
 2. `code/01_spatial_statistics/Phase1_抽样敏感性主实验.py` — run (repeatedly, it is time-budgeted) until all 300 subsampling replicates complete; outputs `results/subsampling_moran_results.csv` and `results/systematic_sampling_results.csv`.
